@@ -13,7 +13,7 @@ namespace WebSite
 {
     public class Startup
     {
-        private string baseAddress = "https://ps-datasvc.azurewebsites.net/";
+        private string baseAddress = "https://ps-dataservice.azurewebsites.net";
 
         public Startup(IConfiguration configuration)
         {
@@ -24,7 +24,7 @@ namespace WebSite
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddApplicationInsightsTelemetry(opts=> { 
-                opts.ConnectionString = Configuration["APPINSIGHTS_CONNECTIONSTRING"]; 
+               // opts.ConnectionString = Configuration["APPINSIGHTS_CONNECTIONSTRING"]; 
             });
 
             services.AddHttpClient("data", opts => {

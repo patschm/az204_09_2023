@@ -10,8 +10,8 @@ namespace WebSite
 {
     public class Startup
     {
-        private string connectionString = "pscash.redis.cache.windows.net:6380,password=3GKV6tG7bJBgTjz3qtbobpajIctQlG0yBAzCaBFW218=,ssl=True,abortConnect=False";
-        private string baseAddress = "https://localhost:5001/";
+        private string connectionString = "ps-cash.redis.cache.windows.net:6380,password=MAuZ8uTbVbREtxj5kAVrtWncK2wyItHehAzCaOlFPcs=,ssl=True,abortConnect=False";
+        private string baseAddress = "https://ps-dataservice.azurewebsites.net/";
 
         public Startup(IConfiguration configuration)
         {

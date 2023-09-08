@@ -1,16 +1,12 @@
 ﻿using Microsoft.ApplicationInsights;
-using Microsoft.ApplicationInsights.Channel;
-using Microsoft.ApplicationInsights.DependencyCollector;
 using Microsoft.ApplicationInsights.Extensibility;
-using Microsoft.ApplicationInsights.Extensibility.Implementation;
 using Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.QuickPulse;
 using Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.ApplicationInsights;
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Security;
+
 
 namespace AppInsightTest
 {
@@ -24,7 +20,7 @@ namespace AppInsightTest
         static void Main(string[] args)
         {
             configuration = TelemetryConfiguration.CreateDefault();
-            configuration.ConnectionString = "InstrumentationKey=761d910e-7887-4b02-b17f-93cffcdd1fd0;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/";
+            configuration.ConnectionString = "InstrumentationKey=abbf7af7-a42f-41a0-aa83-d120f17fb7cf;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/";
             TeleChannels(configuration, local:false);
 
 

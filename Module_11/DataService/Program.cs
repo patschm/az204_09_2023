@@ -25,7 +25,7 @@ namespace DataService
                      });
                  })
                 .ConfigureLogging((ctx, builder) => { 
-                    builder.AddApplicationInsights(ctx.Configuration["APPINSIGHTS_CONNECTIONSTRING"]);
+                    //builder.AddApplicationInsights(ctx.Configuration["APPINSIGHTS_CONNECTIONSTRING"]);
                 })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {

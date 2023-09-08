@@ -30,7 +30,7 @@ namespace WebClient
             services.AddHttpClient("products", options => options.BaseAddress = new Uri($"{baseUrl}/products/"));
             services.AddHttpClient("productgroups", options => options.BaseAddress = new Uri($"{baseUrl}/productgroups/"));
             services.AddControllersWithViews();
-            services.AddApplicationInsightsTelemetry(Configuration["APPINSIGHTS_CONNECTIONSTRING"]);
+           // services.AddApplicationInsightsTelemetry(Configuration["APPINSIGHTS_CONNECTIONSTRING"]);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
