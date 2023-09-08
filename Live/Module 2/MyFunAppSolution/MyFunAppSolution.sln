@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFunApp", "MyFunApp\MyFunApp.csproj", "{1DCDBB86-D98E-41DE-8C08-E176B3E41267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Duurzaam", "Duurzaam\Duurzaam.csproj", "{EFDE4FE8-E8AD-4E50-8B71-9FD3106019A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DCDBB86-D98E-41DE-8C08-E176B3E41267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DCDBB86-D98E-41DE-8C08-E176B3E41267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DCDBB86-D98E-41DE-8C08-E176B3E41267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DCDBB86-D98E-41DE-8C08-E176B3E41267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFDE4FE8-E8AD-4E50-8B71-9FD3106019A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFDE4FE8-E8AD-4E50-8B71-9FD3106019A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFDE4FE8-E8AD-4E50-8B71-9FD3106019A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFDE4FE8-E8AD-4E50-8B71-9FD3106019A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DE35121-15D8-4610-8EDE-77B4489CFB1E}
+	EndGlobalSection
+EndGlobal
